@@ -7,9 +7,9 @@ import Floting_icon1 from '../../public/icons/Floting_icon1'
 
 const Contemagente = () => {
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-between px-[245px] py-10">
+    <section className="relative flex flex-col md:flex-row items-center justify-between  md:w-[960px] m-auto py-10">
     {/* Left Content */}
-    <div className="md:w-1/2 text-left">
+    <div className="md:w-1/2 text-left px-4">
       {/* Hashtag */}
       <p className="text-sm text-purple-600 font-semibold mb-2">#CONTECOMAGENTE</p>
 

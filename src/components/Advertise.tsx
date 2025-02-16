@@ -8,8 +8,8 @@ const Advertise = () => {
   return (
     <main>
       {/* Seção de subtítulo e cartões */}
-      <section className="bg-white px-[245px] py-10">
-        <div className="container mx-auto px-4">
+      <section className="bg-white w-full md:w-[960px] m-auto py-10">
+        <div className=" px-4">
           <h2 className="text-2xl md:text-4xl font-bold text-center text-[#402263] mb-4">
             Um subtítulo para quem rolou até aqui!
           </h2>
@@ -19,10 +19,10 @@ const Advertise = () => {
           </p>
 
           {/* Cards */}
-          <div className="mt-14 flex flex-col md:flex-row gap-6 md:gap-8 justify-center">
+          <div className="mt-14  flex flex-col   md:flex-row gap-16 md:gap-8 justify-center">
             
             {/* Card 1 */}
-            <div className="relative border bg-white w-[287px] h-[310px] shadow-md rounded-xl p-6 text-center">
+            <div className="relative border bg-white md:w-[287px] h-[310px] shadow-md rounded-xl p-6 text-center">
               {/* Positioned SVG */}
               <div className="absolute top-[-80px] left-1/2 -translate-x-1/2">
                 <Rapiodicon />
@@ -40,7 +40,7 @@ const Advertise = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="relative border bg-white w-[287px] h-[310px] shadow-md rounded-xl p-6 text-center">
+            <div className="relative border bg-white md:w-[287px] h-[310px] shadow-md rounded-xl p-6 text-center">
               {/* Positioned SVG */}
               <div className="absolute top-[-135px] left-1/2 -translate-x-1/2">
                 <Do_seu_jeito />
@@ -58,7 +58,7 @@ const Advertise = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="relative bg-white w-[287px] h-[310px] shadow-md rounded-xl p-6 text-center border">
+            <div className="relative bg-white md:w-[287px] h-[310px] shadow-md rounded-xl p-6 text-center border">
               {/* Positioned SVG */}
               <div className="absolute top-[-80px] left-1/2 -translate-x-1/2">
                 <Como_voce_quria />
