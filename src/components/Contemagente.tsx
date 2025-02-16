@@ -1,6 +1,6 @@
-import Image from 'next/image'
+
 import React from 'react'
-import ManIcon from '../../icons/manIcon'
+
 import Manicon1 from '../../public/manicon1'
 import Floting_icon from '../../public/icons/Floting_icon'
 import Floting_icon1 from '../../public/icons/Floting_icon1'

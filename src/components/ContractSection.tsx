@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Text_icons from "../../public/icons/Text_icons";
 import Whatsup from "../../public/icons/Whatsup";
 
