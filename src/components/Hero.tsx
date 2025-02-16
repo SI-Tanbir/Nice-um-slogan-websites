@@ -5,12 +5,12 @@ import manimage from '../../public/manicon.png';
 const Hero = () => {
   return (
   <div className=''>
-         <div className=" mb-6 bg-gradient-to-r from-[#402263] to-[#220a33] text-white md:h-[460px] flex items-center">
+         <div className="w-full m-auto mb-6 bg-gradient-to-r from-[#402263] to-[#220a33] text-white md:h-[460px] flex items-center">
       {/* Container for content */}
       <div className="  flex flex-col md:flex-row items-center justify-between px-4 py-8 ">
         
         {/* Left text content */}
-        <div className="max-w-lg mt-8 md:mt-0 md:pl-28">
+        <div className="max-w-lg   mt-8 md:mt-0 md:pl-28">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
             Um slogan chamativo aqui.
           </h1>
